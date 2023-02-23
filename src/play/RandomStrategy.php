@@ -27,6 +27,3 @@ class Random extends MoveStrategy{
         return $availableSpots;
     }
 }
-$board = new Board();
-$randStrat = new Random($board);
-echo $randStrat->pickPlace()[0]," ",$randStrat->pickPlace()[1];

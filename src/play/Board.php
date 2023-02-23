@@ -3,7 +3,8 @@ class Board
 {
     var $size;
     var $board;
-    function __construct($size = 15)
+
+    function __construct($size = 15 )
     {
         $this -> size = $size;
         $array =  array(); // creating n*n array n = size
